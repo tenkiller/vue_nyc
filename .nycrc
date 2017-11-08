@@ -1,0 +1,15 @@
+{
+  "require": [
+    "jsdom-global/register"
+  ],
+  "extension": [
+    ".js",
+    ".vue"
+  ],
+  "exclude": [
+    "**/*.spec.js"
+  ],
+  "reporter": ["lcov", "text"],
+  "sourceMap": false,
+  "instrument": false
+}
